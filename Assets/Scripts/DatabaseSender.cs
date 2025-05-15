@@ -6,7 +6,7 @@ public class DatabaseSender : MonoBehaviour
 {
     void Start()
     {
-        StartCoroutine(SendData("PlayerTwo", 100));
+        //StartCoroutine(SendData("PlayerOne", 99));
     }
 
     IEnumerator SendData(string username, int score)

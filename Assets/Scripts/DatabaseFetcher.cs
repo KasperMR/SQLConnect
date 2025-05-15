@@ -20,7 +20,7 @@ public class DatabaseFetcher : MonoBehaviour
 {
     void Start()
     {
-        StartCoroutine(GetData());
+        //StartCoroutine(GetData());
     }
 
     IEnumerator GetData()
